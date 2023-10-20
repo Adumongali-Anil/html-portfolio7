@@ -1,0 +1,31 @@
+*{
+    text-align: center;
+  }
+html{
+    background: lightblue;
+    border: 20px solid black;
+}  
+h3{
+    color: rgb(37, 37, 37);
+}
+#one{
+    background-color: rgb(232, 184, 214);
+    padding: 5px;
+    border: 10px solid black;
+      float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.one{
+    background-color:black;
+    border: 20px solid white;
+  
+}
+#two::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#two, #three, img{
+    border: 10px solid black;
+}
